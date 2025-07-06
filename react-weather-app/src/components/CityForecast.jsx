@@ -32,7 +32,7 @@ const CityForecast = () => {
                 <h2>{`${getData.summary}`}</h2>
                 <p>{getData.details}</p>
                 </div>
-                <Link to="/">Back To Available Forecasts</Link>
+                <Link to="/" className="return-link">Back To Available Forecasts</Link>
         </>
     )
 }

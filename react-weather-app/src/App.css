@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.forecast-link {
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 300px;
+}
+
+.forecast-link:hover {
+    background-color: rgba(255,255,255,.75);
+    transform: scale(1.1)
+}

@@ -24,15 +24,15 @@ const CityList = () => {
 
 
     return (
-        <>
+            <div className="container">
             <h1>Available Forecasts:</h1>
                 {cities.map((city) =>
-                        <p key={city}>
+                        <p key={city} className="forecast-link">
                             <Link to={`/forecast/${city}`}>{city}</Link>
                         </p>
                 )}
             <Outlet />
-        </>
+            </div>
     )
 }
 

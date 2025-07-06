@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(150,225,255,.5);
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategray;
+}
+
+a {
+    color: slategray;
+    font-size: x-large;
+}
+
+.return-link {
+    font-size: medium;
+}
